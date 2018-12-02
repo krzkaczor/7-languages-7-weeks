@@ -17,6 +17,4 @@ Vehicle getVersion := method(self version)
 Vehicle slotNames println
 executeByName := method(o, slotName, o perform (slotName)) // using getSlot(slotName) call won't work b/c of self
 
-Vehicle println
 executeByName(Vehicle, "getVersion") println
-
